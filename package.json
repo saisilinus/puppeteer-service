@@ -1,0 +1,19 @@
+{
+  "name": "puppeteer-service",
+  "version": "1.0.0",
+  "description": "Fetches webpages and returns them to bots with meta tags",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "pm2 startOrRestart ecosystem.config.json --no-daemon"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "puppeteer": "^24.18.0"
+  }
+}
